@@ -1,0 +1,12 @@
+h1{ font-size: 2.5rem; 
+font-weight: 900;}
+.box{ 
+    h2 { font-size: 2rem;
+        font-weight: 700;
+        color: $font-color;   } 
+p { font-size: 1.25rem; font-weight: 300; color: $font-color; }
+@include box-style (white)
+}
+.box--secondary {
+    @include box-style (red)
+ }
